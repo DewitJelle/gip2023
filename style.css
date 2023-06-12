@@ -54,7 +54,7 @@ nav a {
   color: #333;
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1em;
 }
 
   nav a:hover{
@@ -82,7 +82,7 @@ nav a {
   border: none;
   border-radius: 3px;
   padding: 8px;
-  font-size: 16px;
+  font-size: 1em;
   margin-left: 10px;
   margin-right: 15px;
   cursor: pointer;
@@ -133,7 +133,7 @@ nav a {
       padding: 12px 16px;
       text-decoration: none;
       display: block;
-      font-size: 0.8em;
+      font-size: 1em;
     }
     
     .dropdown-content a:hover {
@@ -165,13 +165,13 @@ main {
 }
 
 .about-us-text h2 {
-  font-size: 32px;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .about-us-text p {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -195,8 +195,12 @@ main {
 }
 
 #gallery h2 {
-  font-size: 36px;
+  font-size: 2.5em;
   margin-bottom: 50px;
+}
+
+#gallery p {
+  font-size: 1em;
 }
 
 .photo-container {
@@ -220,7 +224,7 @@ main {
 
 .photo-container img:hover{
  
-  cursor: pointer;
+  cursor: none;
   opacity: 100%;
   width: 55%;
   max-height: 500px;
@@ -287,7 +291,7 @@ footer {
 }
 
 .footer-contact h3 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -298,7 +302,7 @@ footer {
 }
 
 .footer-contact label {
-  font-size: 16px;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
@@ -316,7 +320,7 @@ footer {
   color: #333;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1em;
   cursor: pointer;
 }
 
@@ -325,7 +329,7 @@ footer {
 }
 
 .footer-info h3 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -337,7 +341,7 @@ footer {
 }
 
 .footer-info li {
-  font-size: 16px;
+  font-size: 1em;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -359,7 +363,7 @@ footer {
 }
 
 
-@media (max-width: 680px){
+@media (max-width: 750px){
   .about-us-image img{
       visibility: hidden;
   }
@@ -372,4 +376,4 @@ footer {
   .dropdown-content{
     margin-left: 0em;
   }
-}
+} /*end*/
